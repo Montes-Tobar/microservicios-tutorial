@@ -1,0 +1,14 @@
+#Cuando utilizamos RestTemplate o FeignCliente se utiliza el application.properties con las
+#características siguiente:
+#server.port=8002
+#spring.application.name=carro-service
+
+#Al aplicar los Config Server y Config Client se cambia el nombre y extensión a bootstrap.yaml
+
+spring:
+  application:
+    name: carro-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
