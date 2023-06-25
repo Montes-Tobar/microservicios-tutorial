@@ -58,6 +58,12 @@
 			<version>3.1.0</version>
 		</dependency>
 		
+		<!-- Dependencia de cliente Eureka -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
