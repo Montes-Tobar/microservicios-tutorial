@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: multiple-instances #default-label: config-server si se trabaja con Git #Estas son las ramas del repositorio que se están utilizando.
+          default-label: gateway #Esta es la rama del repositorio que se están utilizando.
           uri: https://github.com/Montes-Tobar/microservicios-tutorial
           search-paths: config-data
   application:

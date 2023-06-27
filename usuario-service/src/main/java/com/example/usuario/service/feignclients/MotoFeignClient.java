@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import com.example.usuario.service.modelos.Moto;
 
-@FeignClient(name = "moto-service", url = "http://localhost:8003")
+//Para gateway no es necesario especificar url en la anotación @FeignClient
+@FeignClient(name = "moto-service")
 @RequestMapping("/moto")
 public interface MotoFeignClient {
 
