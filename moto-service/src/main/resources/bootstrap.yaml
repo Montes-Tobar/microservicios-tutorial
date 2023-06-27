@@ -1,10 +1,3 @@
-#Cuando utilizamos RestTemplate o FeignCliente se utiliza el application.properties con las
-#características siguiente:
-#server.port=8003
-#spring.application.name=moto-service
-
-#Al aplicar los Config Server y Config Client se cambia el nombre y extensión a bootstrap.yaml
-#con las características siguientes:
 spring:
   application:
     name: moto-service
