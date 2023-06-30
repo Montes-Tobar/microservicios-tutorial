@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: circuit-breaker #Esta es la rama del repositorio que se están utilizando.
+          default-label: zipkin-sleuth #Esta es la rama del repositorio que se están utilizando.
           uri: https://github.com/Montes-Tobar/microservicios-tutorial
           search-paths: config-data
   application:

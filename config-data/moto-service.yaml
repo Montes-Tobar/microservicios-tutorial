@@ -10,3 +10,6 @@ eureka:
       default-zone: http://localhost:8761/eureka
     instance:
       instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}} #hostname: localhost cuando no se utilizan múltiples instancias.
+spring:
+  application:
+    zipkin: http://localhost:9411
